@@ -13,5 +13,5 @@ const result = [
 
 function superbowlWin(result) {
   
- result.find( w => result === "W" ) 
+ result.find( w => year === "W" ) 
 }
