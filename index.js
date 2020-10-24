@@ -4,14 +4,14 @@ function testFunc() {
   return "hi"
 }
 
-const record = [
+const result = [
   {year: "2018", result: "L"},
   {year: "2017", result: "W"},
   {year: "2016", result: "N/A"}
 
 ]
 
-function superbowlWin(record) {
+function superbowlWin(result) {
   
  record.find( w => result === "W" ) 
 }
